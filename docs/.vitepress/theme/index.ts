@@ -16,7 +16,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     googleAnalytics({
-      id: 'G-Q76QLPPKZY',
+      id: 'G-4VZSR4647E',
     })
   },
   setup() {
@@ -26,16 +26,15 @@ export default {
 
     // Obtain configuration from: https://giscus.app/
     giscusTalk({
-      repo: 'rhymix-guide/rhymix-guide.github.io',
-      repoId: 'R_kgDOK7dgrw',
-      category: 'Comments', // default: `General`
-      categoryId: 'DIC_kwDOK7dgr84CexuD',
-      mapping: 'pathname', // default: `pathname`
-      inputPosition: 'top', // default: `top`
-      lang: 'ko', // default: `zh-CN`
-      lightTheme: 'light', // default: `light`
-      darkTheme: 'transparent_dark', // default: `transparent_dark`
-      // ...
+      repo: 'damoang-users/rhymix-guide',
+      repoId: 'R_kgDOOBonDA',
+      category: 'General',
+      categoryId: 'DIC_kwDOOBonDM4Cnd1L',
+      mapping: 'pathname',
+      inputPosition: 'top',
+      lang: 'ko',
+      theme: 'transparent_dark',
+      loading: 'lazy',
     }, {
       frontmatter, route
     },

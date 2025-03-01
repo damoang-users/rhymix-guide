@@ -21,7 +21,7 @@ export default mergeConfig(customConfig, defineConfig({
   title: 'Rhymix Guide',
   titleTemplate: ':title - 라이믹스 가이드',
   description: "라이믹스 가이드",
-  base: '/',
+  base: '/rhymix-guide/',
   lastUpdated: true,
   head: [
     [
@@ -56,7 +56,7 @@ export default mergeConfig(customConfig, defineConfig({
         ]
       },
       { text: '레퍼런스', link: '/reference/debug' },
-      { text: 'Awesome', link: 'https://github.com/rhymix-guide/awesome-rhymix' },
+      { text: 'Awesome', link: 'https://github.com/damoang-users/awesome-rhymix' },
     ],
 
     sidebar: {
@@ -321,7 +321,7 @@ export default mergeConfig(customConfig, defineConfig({
       provider: 'local'
     },
     editLink: {
-      pattern: 'https://github.com/rhymix-guide/rhymix-guide.github.io/edit/main/docs/:path',
+      pattern: 'https://github.com/damoang-users/rhymix-guide/edit/main/docs/:path',
       text: '이 페이지 수정하기'
     },
     docFooter: {
@@ -329,7 +329,7 @@ export default mergeConfig(customConfig, defineConfig({
       next: '다음'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/rhymix-guide/rhymix-guide.github.io/' }
+      { icon: 'github', link: 'https://github.com/damoang-users/rhymix-guide/' }
     ]
   },
   markdown: {
@@ -337,6 +337,6 @@ export default mergeConfig(customConfig, defineConfig({
     },
   },
   sitemap: {
-    hostname: 'https://rhymix-guide.github.io/',
+    hostname: 'https://damoang-users.github.io/rhymix-guide/',
   },
 }))

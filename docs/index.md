@@ -12,7 +12,7 @@ hero:
     #   link: /markdown-examples
     - theme: alt
       text: 😎 Awesome Rhymix
-      link: https://github.com/rhymix-guide/awesome-rhymix
+      link: https://github.com/damoang-users/awesome-rhymix
 
 features:
   - title: 레이아웃
