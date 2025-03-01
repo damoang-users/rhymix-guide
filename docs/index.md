@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Rhymix Guide"
   text: "라이믹스 가이드"
-  tagline: 라이믹스 비공식 가이드 문서
+  tagline: "라이믹스 비공식 가이드 문서<br><small>Powered by Damoang Users.</small>"
   actions:
     # - theme: brand
     #   text: Markdown Examples

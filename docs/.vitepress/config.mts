@@ -3,12 +3,6 @@ import { defineConfig, mergeConfig } from 'vitepress'
 const customConfig = {};
 
 if (process.env.NODE_ENV === 'production') {
-  customConfig.head = [
-    [
-      'meta',
-      { name: 'google-site-verification', content: 'zxNvFXHnilnwtr39rTNOFwgfG4lsyDevcbXIcC0FZS0' }
-    ],
-  ]
 } else {
   customConfig.markdown = {
     lineNumbers: true,
@@ -23,19 +17,10 @@ export default mergeConfig(customConfig, defineConfig({
   description: "라이믹스 가이드",
   base: '/rhymix-guide/',
   lastUpdated: true,
-  head: [
-    [
-      'meta',
-      { name: 'google-site-verification', content: 'zxNvFXHnilnwtr39rTNOFwgfG4lsyDevcbXIcC0FZS0' }
-    ],
-    [
-      'meta',
-      { name: 'naver-site-verification', content: 'b0cdbccb84b0ce74ae0d8596bc69ec8fa26e2ff3' }
-    ],
-  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outline: [2, 4],
+    logo: 'https://github.com/damoang-users.png',
     nav: [
       {
         text: '디자인',
