@@ -118,7 +118,7 @@ $my_array = executeQueryArray('모듈이름.쿼리ID',
 ```
 
 #### 연산자
-<condition> 요소의 operation 속성은 조건의 연산자를 뜻한다.  
+`<condition>` 요소의 operation 속성은 조건의 연산자를 뜻한다.  
 자세한 내용은 [DB 쿼리 operator](https://rhymix.org/manual/plugin/dbquery/operation) 공식 문서를 참고하여 확인할 수 있다.
 
 ### INSERT 쿼리
